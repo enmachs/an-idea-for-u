@@ -1,0 +1,67 @@
+.first {
+  background-color: #2D3142;
+}
+
+.second {
+  background-color: #BFC0C0;
+}
+
+.third {
+  background-color: #FFF;
+}
+
+.fourth {
+  background-color: #F3A482;
+}
+
+.fifth {
+  background-color: #4F5D75;
+}
+
+.sixth {
+  background-color: #BFC0C0;
+}
+
+.think-section {
+  width: 100%;
+  height: 100vh !important;
+  position: relative;
+  padding: 200px 10%;
+}
+
+@media only screen and (min-width: 0) and (max-width: 991px) {
+  .think-section {
+    padding: 100px 10%;
+  }
+}
+
+.think-section h1 {
+  margin-bottom: 20px;
+}
+
+.think-section h4 {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+
+.think-section .fa-heart {
+  display: none;
+  color: red;
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+  .think-section .fa-heart {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 0) and (max-width: 767px) {
+  .think-section span.v-heart {
+    display: none;
+  }
+}
+
+.first {
+  color: #BFC0C0;
+}
